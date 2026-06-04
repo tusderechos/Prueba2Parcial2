@@ -2,7 +2,7 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
  */
-package Prueba;
+package prueba;
 
 /**
  *
@@ -64,7 +64,7 @@ public class Logica {
             GuardarTareas();
             
             System.out.println();
-            System.out.println("✓ Tarea #" + numero + " completada: " + Tareas[numero - 1]);
+            System.out.println("✔ Tarea #" + numero + " completada: " + Tareas[numero - 1]);
         } else 
             System.out.println("Numero de tarea invalido");
     }
